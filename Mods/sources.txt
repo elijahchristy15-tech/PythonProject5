@@ -6,3 +6,5 @@ tutorialMod: https://github.com/elijahchristy15-tech/MyModforfun
 Crafting Bedrock: https://github.com/elijahchristy15-tech/CraftBedrock
 fofun: https://github.com/elijahchristy15-tech/FoFun
 blocker: https://github.com/elijahchristy15-tech/Blocker
+barebones: https://www.curseforge.com/minecraft-bedrock/texture-packs/bare-bones-be
+barebone-pvp: https://www.curseforge.com/minecraft-bedrock/texture-packs/bare-bones-pvp
