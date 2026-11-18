@@ -7,13 +7,14 @@
     <style>
         :root {
             color-scheme: light;
-            --bg: #f4efe6;
-            --panel: #fffaf2;
-            --text: #1f1a14;
-            --muted: #6a5847;
-            --accent: #b04d1d;
-            --accent-dark: #7d3310;
-            --border: #d8c4ad;
+            --bg: #981D97;
+            --panel: #0EA94E;
+            --text: #14db74;
+            --muted: #1E6194;
+            --accent: #041D3E;
+            --accent-dark: #1E6194;
+            --border: #000000;
+            --panelbg: #141310
         }
 
         * {
@@ -35,7 +36,7 @@
             margin: 48px auto;
             padding: 32px;
             background: var(--panel);
-            border: 1px solid var(--border);
+            border: 5px solid var(--border);
             border-radius: 18px;
             box-shadow: 0 18px 50px rgba(45, 26, 10, 0.12);
         }
@@ -66,7 +67,7 @@
             justify-content: space-between;
             gap: 16px;
             padding: 18px 20px;
-            background: #fff;
+            background: var(--panelbg);
             border: 1px solid var(--border);
             border-radius: 14px;
         }
@@ -74,6 +75,7 @@
         .mod-name {
             margin: 0;
             font-size: 1.1rem;
+            color: var(--text)
         }
 
         .mod-size {
@@ -87,15 +89,17 @@
             display: inline-block;
             padding: 12px 18px;
             border-radius: 999px;
-            background: var(--accent);
-            color: #fff;
+            background: var(--accent-dark);
+            color: #000000;
             text-decoration: none;
             font-weight: 700;
         }
 
+
+
         .download-link:hover,
         .download-link:focus-visible {
-            background: var(--accent-dark);
+            background: var(--accent);
         }
 
         @media (max-width: 640px) {
@@ -188,8 +192,18 @@
                 </div>
                 <a class="download-link" href="Mods/bare-bone-pvp.mcpack" download>Download</a>
             </li>
+
+
+             <li>
+                <div>
+                    <h2 class="mod-name">chess **not mine**</h2>
+                </div>
+                <a class="download-link" href="Mods/_MConverter.eu_Chess%20Pack.mcpack" download>Download</a>
+            </li>
+
         </ul>
 
     </main>
+<footer>Made by yours truely Eli</footer>
 </body>
 </html>
